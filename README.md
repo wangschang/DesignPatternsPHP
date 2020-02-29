@@ -1,5 +1,5 @@
 # DesignPatternsPHP
-
+# php设计模式（基于php7）
 [![Build Status](https://github.com/domnikl/DesignPatternsPHP/workflows/CI/badge.svg)](https://github.com/domnikl/DesignPatternsPHP/actions)
 [![Documentation Status](https://readthedocs.org/projects/designpatternsphp/badge/?version=latest)](https://readthedocs.org/projects/designpatternsphp/?badge=latest)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/DominikLiebler)
@@ -8,18 +8,22 @@
 or [Download as PDF/Epub](https://readthedocs.org/projects/designpatternsphp/downloads/)
 
 This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples.
-
+这是一个php实现的设计模式的汇总，每个设计模式都有一个小栗子。
 I think the problem with patterns is that often people do know them but don't know when to apply which.
-
+我想关于设计模式的问题是：我们知道他妈但是不知道如何应用它们
 ## Installation
+## 安装
 You should look at and run the tests to see what happens in the example.
+你应该看一下并允许测试看看例子是如何运行的
 To do this, you should install dependencies with `Composer` first:
-
+首先你要安装 Composer 的依赖
 ```bash
 $ composer install
 ```
 
 Read more about how to install and use `Composer` on your local machine [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
+
+关于更多如何使`Composer`请阅读更多 [here](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
 To run the tests use `phpunit`:
 
@@ -28,20 +32,29 @@ $ ./vendor/bin/phpunit
 ```
 
 ## using Docker (optional)
+## 使用 Docker（可选）
 
 You can optionally build and browse the documentation using [Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
 
+查看相应文档请查看：[Docker for Mac, Windows or Linux](https://docs.docker.com/compose/install/).
+
 Just run:
+
+运行：
 
 ```bash
 $ docker-compose up --build
 ```
 
 Go to [http://localhost:8080/README.html](http://localhost:8080/README.html) to read the generated documentation.
+在 [http://localhost:8080/README.html](http://localhost:8080/README.html) 查看生成文档。
 
 ## Patterns
 
+## 设计模式
+
 The patterns can be structured in roughly three different categories. Please click on the [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern) for a full explanation of the pattern on Wikipedia.
+设计模式大概有三个目录组成，点击链接查看详细的Wikipedia 解释 [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern)
 
 ### [Creational](Creational)
 
