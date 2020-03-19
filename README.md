@@ -115,3 +115,5 @@ The patterns can be structured in roughly three different categories. Please cli
 
 参考地址 : https://designpatternsphp.readthedocs.io/zh_CN/latest/README.html
 
+有已经翻译完的地址请参考：https://learnku.com/docs/php-design-patterns/2018/translation-instructions/1486
+
