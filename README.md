@@ -12,7 +12,7 @@ This is a collection of known design patterns and some sample code how to implem
 这是一个php实现的设计模式的汇总，每个设计模式都有一个小栗子。
 I think the problem with patterns is that often people do know them but don't know when to apply which.
 
-我想关于设计模式的问题是：我们知道他妈但是不知道如何应用它们
+我想关于设计模式的问题是：我们知道他但是不知道如何应用它们
 ## Installation
 
 ## 安装
@@ -66,18 +66,18 @@ The patterns can be structured in roughly three different categories. Please cli
 
 设计模式大概有三个目录组成，点击链接查看详细的Wikipedia 解释 [:notebook:](http://en.wikipedia.org/wiki/Software_design_pattern)
 
-### [Creational](Creational)
+### [创建型模式](Creational)
 
-* [AbstractFactory](Creational/AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
-* [Builder](Creational/Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
-* [FactoryMethod](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
-* [Pool](Creational/Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
-* [Prototype](Creational/Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
-* [SimpleFactory](Creational/SimpleFactory)
-* [Singleton](Creational/Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
-* [StaticFactory](Creational/StaticFactory)
+* [抽象工厂模式](Creational/AbstractFactory) [:notebook:](http://en.wikipedia.org/wiki/Abstract_factory_pattern)
+* [生成器模式](Creational/Builder) [:notebook:](http://en.wikipedia.org/wiki/Builder_pattern)
+* [工厂方法](Creational/FactoryMethod) [:notebook:](http://en.wikipedia.org/wiki/Factory_method_pattern)
+* [对象池](Creational/Pool) [:notebook:](http://en.wikipedia.org/wiki/Object_pool_pattern)
+* [原型模式](Creational/Prototype) [:notebook:](http://en.wikipedia.org/wiki/Prototype_pattern)
+* [简单工厂模式](Creational/SimpleFactory)
+* [单例模式](Creational/Singleton) [:notebook:](http://en.wikipedia.org/wiki/Singleton_pattern) (is considered an anti-pattern! :no_entry:)
+* [静态工厂](Creational/StaticFactory)
 
-### [Structural](Structural)
+### [结构性设计模式](Structural)
 
 * [Adapter](Structural/Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
 * [Bridge](Structural/Bridge) [:notebook:](http://en.wikipedia.org/wiki/Bridge_pattern)
@@ -111,3 +111,6 @@ The patterns can be structured in roughly three different categories. Please cli
 * [EAV](More/EAV) [:notebook:](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
 * [Repository](More/Repository)
 * [ServiceLocator](More/ServiceLocator) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern) (is considered an anti-pattern! :no_entry:)
+
+参考地址 : https://designpatternsphp.readthedocs.io/zh_CN/latest/README.html
+
