@@ -10,6 +10,7 @@ or [Download as PDF/Epub](https://readthedocs.org/projects/designpatternsphp/dow
 This is a collection of known design patterns and some sample code how to implement them in PHP. Every pattern has a small list of examples.
 
 这是一个php实现的设计模式的汇总，每个设计模式都有一个小栗子。
+
 I think the problem with patterns is that often people do know them but don't know when to apply which.
 
 我想关于设计模式的问题是：我们知道他但是不知道如何应用它们
@@ -79,9 +80,9 @@ The patterns can be structured in roughly three different categories. Please cli
 
 ### [结构性设计模式](Structural)
 
-* [Adapter](Structural/Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
-* [Bridge](Structural/Bridge) [:notebook:](http://en.wikipedia.org/wiki/Bridge_pattern)
-* [Composite](Structural/Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
+* [适配器模式](Structural/Adapter) [:notebook:](http://en.wikipedia.org/wiki/Adapter_pattern)
+* [桥接模式](Structural/Bridge) [:notebook:](http://en.wikipedia.org/wiki/Bridge_pattern)
+* [组合模式](Structural/Composite) [:notebook:](http://en.wikipedia.org/wiki/Composite_pattern)
 * [DataMapper](Structural/DataMapper) [:notebook:](http://en.wikipedia.org/wiki/Data_mapper_pattern)
 * [Decorator](Structural/Decorator) [:notebook:](http://en.wikipedia.org/wiki/Decorator_pattern)
 * [DependencyInjection](Structural/DependencyInjection) [:notebook:](http://en.wikipedia.org/wiki/Dependency_injection)
@@ -91,9 +92,9 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Proxy](Structural/Proxy) [:notebook:](http://en.wikipedia.org/wiki/Proxy_pattern)
 * [Registry](Structural/Registry) [:notebook:](http://en.wikipedia.org/wiki/Service_locator_pattern)
 
-### [Behavioral](Behavioral)
+### [行为类设计模式](Behavioral)
 
-* [ChainOfResponsibilities](Behavioral/ChainOfResponsibilities) [:notebook:](http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern)
+* [责任链模式](Behavioral/ChainOfResponsibilities) [:notebook:](http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern)
 * [Command](Behavioral/Command) [:notebook:](http://en.wikipedia.org/wiki/Command_pattern)
 * [Iterator](Behavioral/Iterator) [:notebook:](http://en.wikipedia.org/wiki/Iterator_pattern)
 * [Mediator](Behavioral/Mediator) [:notebook:](http://en.wikipedia.org/wiki/Mediator_pattern)
